@@ -1,0 +1,50 @@
+/* h1{
+    font-family:Leage spartan;
+    color:#ffa511;
+    text-align: center;
+    font-weight:900;
+    font-size:55px;
+    letter-spacing: 2px;
+    line-height:2.5;
+    text-decoration: teal underline;
+    text-decoration-style: double;
+   
+    text-transform: uppercase;
+
+
+} */
+ /* ASSIGNMENT */ 
+ Body{
+    font-style:georgia;
+ }
+ p{ 
+   color:#ff0000;
+   text-align: center;
+   line-height: 30px;
+   }
+h1{
+    text-align: center;
+} 
+h3{
+    text-align: center;
+    color:#000000;
+}
+h4{
+    text-align: center;
+}
+a{
+    color:green;
+    text-decoration:none;
+}
+button{
+    background-color:white;
+    color:blueviolet;
+}
+textarea{
+    color:#000;
+    
+} 
+span{
+    text-decoration:rgb(69, 69, 3) underline;
+    text-decoration-style: dotted ;
+}
