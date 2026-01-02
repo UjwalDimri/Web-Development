@@ -121,3 +121,42 @@ let e=47852;
 if (d%10===e%10){
     console.log(`Have same last digit:${d%10}`);
 }
+<<<<<<< HEAD
+=======
+// practice question
+let mgs = "help!" ;
+let ms = mgs.trim().toUpperCase();
+console.log(ms);
+
+// practice question(predict the output )
+
+let n = "ApnaCollege" ;
+console.log(n.slice(4,9)); //Colle
+console.log(n.indexOf("na")); //2
+console.log(n.replace("Apna","our")); //ourCollege
+
+//practice question
+let na = n.slice(4).replace('l','t');
+console.log(na);
+
+//practice question
+ let arr = ["january","july","march","august"];
+ console.log(arr);
+ arr.shift();
+ arr.shift();
+ arr.unshift("june");
+ arr.unshift("july");
+ console.log(arr);
+
+ //practice question
+
+ let date = ["january","july","march","august"];
+ date.splice(0,2,"july","june");
+ console.log(date);
+
+ //practice question
+
+ let lang = ['c',"c++","html","javascript","python","java","c#","sql"];
+
+ console.log(lang.indexOf("javascript"));
+>>>>>>> 39a44958a96e7ac03d549a192a05890d17a8b464
