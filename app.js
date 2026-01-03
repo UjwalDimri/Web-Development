@@ -63,6 +63,7 @@ switch(Day){
     default :
         console.log("Enter a valid Number between 1 to 7");
 }
+console.log("--------------------------------------------------------------------------");
 // Assignment -2 
 // question=1
 let num=10;
@@ -121,8 +122,7 @@ let e=47852;
 if (d%10===e%10){
     console.log(`Have same last digit:${d%10}`);
 }
-<<<<<<< HEAD
-=======
+console.log("--------------------------------------------------------------------------");
 // practice question
 let mgs = "help!" ;
 let ms = mgs.trim().toUpperCase();
@@ -159,4 +159,51 @@ console.log(na);
  let lang = ['c',"c++","html","javascript","python","java","c#","sql"];
 
  console.log(lang.indexOf("javascript"));
->>>>>>> 39a44958a96e7ac03d549a192a05890d17a8b464
+
+ //practice question
+
+ let game = [['X',null,'O'],[null,'X',null],['O',null,'X']];
+
+console.log("--------------------------------------------------------------------------");
+
+//Assignment -3
+
+// question 1 
+// Qs1.Write a JavaScript program to get the first n elements of an array.
+// [n can be any positive number].For example:for array [7,9,0,-2]and n=3 Print,[7,9,0]
+
+let arr3 = [1,2,3,4,5];
+let n1 = 2;
+let fromStart = arr3.slice(0,n1);
+console.log(fromStart);
+
+// question 2 
+//Qs2.Write a JavaScript program to get the last n elements of an array.
+// [n can be any positive number ]. For example : for array [7,9,0,-2]andn=3Print,[9,0,-2]
+let fromEnd = arr3.slice(arr3.length-n1); 
+console.log(fromEnd);
+
+// Qs3.Write a JavaScript program to check whether a string is blank or not.
+
+
+//print odd numbers from 1 to 15 
+
+for(let i = 1;i<=15;i++){
+    if (i%2!=0){
+        console.log(i);
+    }
+}
+
+// print even numbers 2 to 10
+for(let i = 1;i<=15;i++){
+    if (i%2==0){
+        console.log(i);
+    }
+}
+
+// print multiplication table of 5 
+console.log("multiplication table of 5 ");
+
+for(let i = 1;i<=10;i++){
+    console.log(`5 X ${i} = ${5*i}`);
+}
