@@ -32,3 +32,11 @@ const Average = (array) => {
  
 let array = [1,2,3,4,5,6,7,8,9,10];
 Average(array);
+
+// Qs2. Write an arrow function named is Even() that takes a singlenumber as argument and returns if it is even or not.
+
+const Even = n => (
+    n%2==0
+);
+
+Even(2);
