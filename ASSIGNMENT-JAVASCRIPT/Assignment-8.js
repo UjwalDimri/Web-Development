@@ -41,3 +41,13 @@ let pulseFive = arr8.map((el) => {
     return x ;
 });
 console.log(...pulseFive);
+
+// Qs3. Create a new array whose elements are in upper case of words present in the original array
+let arr3 = ["I","am","Ujwal"];
+
+
+
+
+
+// Qs4.Write a function called doubleAndReturnArgs which accepts an array and a variable number of arguments.The function should return a new array with the original array values and all of the additional arguments doubled.
+// Qs5.Write a function called mergeObjects that accepts two objects and returns a new object which contains all the keys and values of the first object and second object.
