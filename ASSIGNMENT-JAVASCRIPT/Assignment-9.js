@@ -31,5 +31,18 @@ div.append(p1);
 
 console.log("Assignment-9");
 //ASSIGNMENT-9
-// Qs1. Create a new input and button element on the page using Java Script only.Set the text of button to “Clickme”;
+// Qs1. Create a new input and button element on the page using Java Script only . Set the text of button to “Clickme”;
+let btn = document.createElement("button");
+btn.innerText="Click Me";
+body.append(btn);
+
+// Qs2 . Add following attributes to the element : 
+// - Change placeholder value of input to “username” 
+// - Change the id of button to “btn"
+let input = document.createElement("input");
+btn.setAttribute("id","btn");
+input.setAttribute("placeholder","username");
+
+// Qs3 . Access the btn using the query Selector and button id.Changethebuttonbackgroundcolortoblueandtextcolortowhite.
+
 
