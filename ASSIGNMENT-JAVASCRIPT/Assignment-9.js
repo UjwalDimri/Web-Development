@@ -43,6 +43,19 @@ let input = document.createElement("input");
 btn.setAttribute("id","btn");
 input.setAttribute("placeholder","username");
 
-// Qs3 . Access the btn using the query Selector and button id.Changethebuttonbackgroundcolortoblueandtextcolortowhite.
+// Qs3 . Access the btn using the query Selector and button id.Change the button background color to blue and text color to white.
+let btn1 = document.querySelector("#btn");
+btn1.style.backgroundColor="blue";
+btn1.style.color="white";
 
+// Qs4 . Create an h1 element on the page and set its text to “DOM Practice” underlined .Change its color to purple.
+let h2 = document.createElement("h1");
+h2.innerText="DOM Practice";
+h2.style.textDecorationLine="underline";
+h2.style.color="purple";
+body.append(h2);
 
+// Qs5. Create a p tag on the page and set its text to “Apna College Delta Practice”,where Delta is bold.
+let p9 = document.createElement("p");
+p9.innerHTML="Apna College  <b>Delta</b> Practice";
+body.append(p9);
