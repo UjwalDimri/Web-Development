@@ -44,9 +44,7 @@ console.log(...pulseFive);
 
 // Qs3. Create a new array whose elements are in upper case of words present in the original array
 let arr3 = ["I","am","Ujwal"];
-
-
-
+let arr ;
 
 
 // Qs4.Write a function called doubleAndReturnArgs which accepts an array and a variable number of arguments.The function should return a new array with the original array values and all of the additional arguments doubled.
