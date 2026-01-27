@@ -15,7 +15,28 @@
 //   .catch(() => {
 //     console.log("Data is not saved Rejected ");
 //   });
-let h1 = document.querySelector("h1");
+// 
+// Api -Application Programming Interface
+let url = "https://catfact.ninja/fact";
+
+async function getFacts() {
+   try {
+    let res = await fetch(url);
+    let data1 = await res.json();
+    console.log("Data 1 : Fetched");
+    console.log(data1);
+    let h1 = document.querySelector("h1");
+    let res2 = await fetch(url);
+    let data2 = await res2.json();
+    console.log("Data 2 : Fectched");
+    h1.innerHTML=`<b>Some Random Facts</b><br>${data1.fact}<br>${data2.fact}`;
+   }catch (error){
+    console.log("Error:",e);
+   }
+}
+getFacts(url);
+     
+     let h1 = document.querySelector("h1");
 
   function colorChange(color,delay) {
     return new Promise ((resolve,reject) => {
@@ -46,7 +67,6 @@ let h1 = document.querySelector("h1");
       console.log("Color Changed To blue",result);
       
      });
-     
-     
+
 
   
