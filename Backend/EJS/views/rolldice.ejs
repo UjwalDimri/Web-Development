@@ -1,12 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ROll Dice</title>
-    <link rel="stylesheet" href="rolldice.css">
-</head>
+<%- include("includes/head.ejs") %>
 <body>
-    <h1>Dice give Value: <%= Math.floor(Math.random()*6)+1%></h1>
+    <h1>Dice give Value: <%= diceVal %></h1>
+    <% if(diceVal == 6) { %>
+        <h2>Nice try again !!</h2>
+    <% } %>
 </body>
 </html>
