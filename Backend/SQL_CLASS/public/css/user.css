@@ -1,0 +1,31 @@
+.id {
+    color: red;
+    text-decoration: underline;
+}
+.email{
+     color: aqua;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body{
+    background-color: bisque;
+}
+h1{
+    text-shadow: 0cqmax;
+    text-decoration: solid;
+    text-align: center;
+    border: 10px bold black;
+}
+div{
+    border: solid black;
+    display: inline-block;
+    padding: 50px 50px 50px 50px;
+    background-color: violet;
+    /* width: 100px; */
+     margin: 100px;
+
+}
+div:hover  {
+    color: black(239, 151, 151);
+    background-color: gold;
+    font-weight: bold;
+}

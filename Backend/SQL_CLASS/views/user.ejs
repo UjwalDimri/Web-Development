@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Users Details</title>
+    <link rel="stylesheet" href="user.css">
+</head>
+<body>
+    <h1><b>Details of Users </b></h1>
+     <% for(let i = 0; i < length ; i++){ %>
+      <div class="div">
+      <h2 class="id"> ID : <%=result[i]["id"]%> </h1>
+      <h2 class="username"> Username : <%=result[i]["username"]%></h1>
+      <h2 class="email"> Email : <%= result[i]["email"]%></h1>
+      <h2 class="password"> password : <%= result[i]["password"]%></h1>
+      <form method="GET" action="/user/id/edit">
+        <button>EDIT</button>
+      </form>
+      </div>
+     <%  } %>
+</body>
+</html>
+
