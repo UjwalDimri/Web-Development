@@ -77,6 +77,7 @@ app.get("/user/:id/edit",(req,res)=>{
         console.log(`ERROR IN DATABASE ${err}`);
     }
 });
+
 // update route
 app.patch("/user/:id",(req,res) => {
     let {id} = req.params;
@@ -92,6 +93,7 @@ app.patch("/user/:id",(req,res) => {
     }
 
 });
+
 
 app.listen(port,()=> {
       console.log(`App is lisenting on port ${port}`);
